@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "generate": "node src/generate.ts",
+    "upgrade": "pnpm update -i -L",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "pnpm test",
+    "sweep": "rm -rf node_modules pnpm-lock.yaml",
+    "knip": "knip"
+  },
+  "devDependencies": {
+    "apekit": "^0.0.26",
+    "yaml": "^2.8.0"
+  },
+  "type": "module",
+  "imports": {
+    "#*": {
+      "apekit": "./src/*.ts",
+      "default": "./lib/*.js"
+    }
+  },
+  "dependencies": {
+    "@rcompat/fs": "^0.14.0",
+    "@rcompat/package": "^0.14.0"
+  }
+}
