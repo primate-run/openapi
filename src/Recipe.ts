@@ -4,4 +4,5 @@ export default interface Recipe {
   upstream?: string;
   sources?: string[];
   aliases?: string[];
+  private?: boolean;
 }
