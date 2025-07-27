@@ -2,11 +2,11 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "tsc && node src/generate.ts",
+    "build": "node src/generate.ts",
     "upgrade": "pnpm update -i -L",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "pnpm test",
+    "dev": "tsc",
     "sweep": "rm -rf node_modules pnpm-lock.yaml"
   },
   "devDependencies": {
