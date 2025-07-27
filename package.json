@@ -17,7 +17,7 @@
   "imports": {
     "#*": {
       "apekit": "./src/*.ts",
-      "default": "./lib/*.js"
+      "default": "./src/*.ts"
     }
   },
   "dependencies": {
