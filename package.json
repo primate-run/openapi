@@ -11,8 +11,7 @@
   },
   "devDependencies": {
     "apekit": "^0.0.26",
-    "typescript": "^5.8.3",
-    "yaml": "^2.8.0"
+    "typescript": "^5.8.3"
   },
   "type": "module",
   "imports": {
@@ -22,6 +21,7 @@
     }
   },
   "dependencies": {
+    "yaml": "^2.8.0",
     "@rcompat/fs": "^0.14.0",
     "@rcompat/package": "^0.14.0",
     "@rcompat/type": "^0.3.0"
