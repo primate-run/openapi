@@ -1,2 +1,5 @@
 https://github.com/twilio/twilio-oai
 https://github.com/opensearch-project/opensearch-api-specification
+
+swagger:
+https://github.com/slackapi/slack-api-specs/blob/master/web-api/slack_web_openapi_v2.json
