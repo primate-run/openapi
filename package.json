@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "apekit": "^0.0.26",
+    "typescript": "^5.8.3",
     "yaml": "^2.8.0"
   },
   "type": "module",
